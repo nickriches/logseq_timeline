@@ -6,7 +6,7 @@ An R Shiny App for visualising timelines in Logseq
 
 The script scans your entire vault and reads every file. It uses Regexes to identify any event which is scheduled / has a deadline, i.e. date is in the format <2021-08-07>. It is thus computationally quite intensive, but seems to be very quick for small vaults.
 
-# Ussage
+# Usage
 
 Place the .R file in your logseq vault and run. For this to work you need "R" installed, and preferably "RStudio". You need to install the following packages in R for this to work:
 
